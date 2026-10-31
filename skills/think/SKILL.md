@@ -1,6 +1,8 @@
 ---
 name: think
 description: "Think a problem through with mental models: picks the 3-5 that actually fit from a ~50-model library (first principles, inversion, premortem, second-order thinking, sunk cost, opportunity cost, expected value & Kelly, margin of safety, circle of competence, the Mom Test, barbell, optionality, bottlenecks, feedback loops, etc.), runs each against the specific situation using sourced thinking steps, then connects them into one recommendation. Trigger: `/think`, 'think this through', 'think about this properly', 'use mental models', 'first-principles this', 'invert this', 'premortem this', 'what am I missing', 'should I keep going or quit'. Short answer by default; `/think deep` gives the full per-model breakdown. Also use for a real decision, plan, or stuck problem where a single structured pass is enough. For high-stakes decisions wanting multiple adversarial perspectives, use llm-council instead."
+argument-hint: "[deep] <decision or problem>"
+allowed-tools: Read, Glob
 ---
 
 # Think
