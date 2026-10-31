@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1032" height="483" viewBox="0 0 1032 483" role="img" aria-label="Same question, plain Claude versus /think. Plain Claude returns a four-step checklist and asks for more information. /think returns one call (freeze it, finish only if another customer commits), catches that the only demand evidence came from the customer who churned, and gives a next step and a kill criterion.">
+<style>
+text{font:13px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#c9d1d9;white-space:pre}
+.cmd{fill:#f0f3f6}.dim{fill:#8b949e}.hi{fill:#7cc4ff}.ok{fill:#7ee787;font-weight:bold}.bar{font-size:12px;fill:#8b949e}
+</style>
+<rect x="0.5" y=".5" width="499" height="482" rx="10" fill="#0f1319" stroke="#3a404a"/><path d="M10.5 .5h479a10 10 0 0 1 10 10v23.5h-499v-23.5a10 10 0 0 1 10-10z" fill="#1a1f27"/><circle cx="18" cy="17" r="5" fill="#3a404a"/><circle cx="34" cy="17" r="5" fill="#3a404a"/><circle cx="50" cy="17" r="5" fill="#3a404a"/><text x="250.0" y="22" class="bar" text-anchor="middle">claude</text>
+<rect x="532.5" y=".5" width="499" height="482" rx="10" fill="#0f1319" stroke="#3a404a"/><path d="M542.5 .5h479a10 10 0 0 1 10 10v23.5h-499v-23.5a10 10 0 0 1 10-10z" fill="#1a1f27"/><circle cx="550" cy="17" r="5" fill="#3a404a"/><circle cx="566" cy="17" r="5" fill="#3a404a"/><circle cx="582" cy="17" r="5" fill="#3a404a"/><text x="782.0" y="22" class="bar" text-anchor="middle">claude + /think</text>
+<text x="20" y="66" class="cmd">$ claude &quot;We spent 6 months building a feature our</text>
+<text x="20" y="85" class="cmd">  biggest customer asked for, and they just churned.</text>
+<text x="20" y="104" class="cmd">  It&#x27;s 80% done. Should we finish it?&quot;</text>
+<text x="20" y="132">Ignore the 6 months. The only question that matters:</text>
+<text x="20" y="151">would you spend the remaining effort to ship it?</text>
+<text x="20" y="179" class="hi">## 1. Get an honest estimate of the remaining 20%</text>
+<text x="20" y="198" class="hi">## 2. Check whether anyone else wants it</text>
+<text x="20" y="217" class="hi">## 3. Find out why they churned</text>
+<text x="20" y="236" class="hi">## 4. Look for options between finishing and</text>
+<text x="20" y="255" class="hi">  abandoning</text>
+<text x="20" y="274" class="hi">## My default</text>
+<text x="20" y="293">Pause unless you can name 3+ other customers who want</text>
+<text x="20" y="312">it.</text>
+<text x="20" y="340">If you share how many other customers have asked for</text>
+<text x="20" y="359">this ... I can help you make the call.</text>
+<text x="20" y="387" class="dim">~440 words · a checklist · ends by asking you for more</text>
+<text x="552" y="66" class="cmd">$ claude &quot;/think We spent 6 months building a feature</text>
+<text x="552" y="85" class="cmd">  our biggest customer asked for, and they just</text>
+<text x="552" y="104" class="cmd">  churned. It&#x27;s 80% done. Should we finish it?&quot;</text>
+<text x="552" y="132" class="ok">Call: Freeze it. Finish only if another customer</text>
+<text x="552" y="151" class="ok">commits.</text>
+<text x="552" y="179" class="hi">Sampling: all the demand evidence came from one</text>
+<text x="552" y="198" class="hi">  customer, and they just left. That counts against</text>
+<text x="552" y="217" class="hi">  it.</text>
+<text x="552" y="236" class="hi">Sunk cost: starting today, would you build it? With</text>
+<text x="552" y="255" class="hi">  the requester gone, probably not.</text>
+<text x="552" y="274" class="hi">Opportunity cost: those weeks could go to whatever</text>
+<text x="552" y="293" class="hi">  lost you your biggest customer.</text>
+<text x="552" y="312" class="hi">Mom Test: don&#x27;t ask &quot;would you use X?&quot;, ask what their</text>
+<text x="552" y="331" class="hi">  workaround costs today.</text>
+<text x="552" y="359">Next: interview your top 5–8 accounts this week, and</text>
+<text x="552" y="378">ask the churned customer why they left.</text>
+<text x="552" y="397">Change course if: 2+ customers commit (pilot, contract</text>
+<text x="552" y="416">term, renewal).</text>
+<text x="552" y="444" class="dim">~360 words · one call · a kill criterion</text>
+</svg>

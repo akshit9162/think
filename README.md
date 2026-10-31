@@ -19,6 +19,11 @@ and connects them into one call, one next step and a kill criterion.</p>
   <a href="#find-more-skills-like-this">More skills</a>
 </p>
 
+<p align="center">
+  <img src="assets/compare.svg" width="900" alt="Same question, plain Claude versus /think. Plain Claude returns a four-step checklist and asks for more information. /think returns one call, catches that the only demand evidence came from the customer who churned, and gives a next step and a kill criterion." />
+  <br/><sub>Same model, same question, clean sessions. <a href="examples/plain-vs-think.md">Full transcripts</a>.</sub>
+</p>
+
 ```bash
 claude plugin marketplace add akshit9162/think && claude plugin install think@think
 ```
@@ -74,7 +79,7 @@ course.
 insight*), a long "connecting them" section on where the models agree and which wins, then the
 call. Used automatically for high-stakes, irreversible decisions.
 
-More real outputs in [`examples/`](examples/).
+More real outputs in [`examples/`](examples/), including the [full plain-vs-think transcripts](examples/plain-vs-think.md).
 
 ## How it works
 
