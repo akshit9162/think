@@ -1,0 +1,24 @@
+{
+  "name": "think",
+  "version": "1.0.0",
+  "description": "Think a problem through with mental models: picks the 3-5 of ~50 that fit your situation, runs each with sourced thinking steps, and connects them into one call, one next step and a kill criterion.",
+  "author": {
+    "name": "akshit9162",
+    "url": "https://github.com/akshit9162"
+  },
+  "homepage": "https://github.com/akshit9162/think",
+  "repository": "https://github.com/akshit9162/think",
+  "license": "MIT",
+  "keywords": [
+    "mental-models",
+    "decision-making",
+    "thinking",
+    "first-principles",
+    "premortem",
+    "claude-code",
+    "agent-skills"
+  ],
+  "skills": [
+    "./skills/think"
+  ]
+}

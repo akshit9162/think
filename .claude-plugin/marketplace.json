@@ -1,0 +1,26 @@
+{
+  "name": "think",
+  "owner": {
+    "name": "akshit9162",
+    "url": "https://github.com/akshit9162"
+  },
+  "metadata": {
+    "description": "Mental models that end in a decision, not a lecture."
+  },
+  "plugins": [
+    {
+      "name": "think",
+      "source": "./",
+      "description": "Think a problem through with mental models: picks the 3-5 of ~50 that fit your situation, runs each with sourced thinking steps, and connects them into one call, one next step and a kill criterion.",
+      "version": "1.0.0",
+      "author": {
+        "name": "akshit9162",
+        "url": "https://github.com/akshit9162"
+      },
+      "homepage": "https://github.com/akshit9162/think",
+      "repository": "https://github.com/akshit9162/think",
+      "license": "MIT",
+      "category": "productivity"
+    }
+  ]
+}
