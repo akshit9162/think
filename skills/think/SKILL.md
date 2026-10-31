@@ -15,8 +15,7 @@ not listing them — never recite the library, never define a model the user did
 - `models/index.md` — every model, grouped, with one-liners, depth, and selection heuristics.
   **Always read it first.**
 - `models/<slug>.md` — 26 "Deep" models with sources, **When to Avoid**, **Thinking Steps**
-  and **Coaching Questions** (or Process / Red Flags for the deciqAI ones).
-- `CREDITS.md` — origins and MIT licences.
+  and **Coaching Questions** (or Process / Red Flags).
 - Your own models (optional): drop files in the same shape into `~/.claude/mental-models/` or
   `.mental-models/` in a project; check both before selecting, and a user model wins a name clash.
 
@@ -111,5 +110,4 @@ Question would sharpen the decision, end with it (deep mode only).
 
 To add a model, copy the shape of any Deep file (frontmatter `type: mental-model`, title,
 description, sources; then When to Avoid, Thinking Steps, Coaching Questions), save it to
-`models/<slug>.md`, and add a row to `models/index.md`. More sourced models:
-deciqAI/knowledge-skills (~250, many domain-specific — pick selectively).
+`models/<slug>.md`, and add a row to `models/index.md`.

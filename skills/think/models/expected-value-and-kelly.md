@@ -2,7 +2,6 @@
 type: mental-model
 title: Expected Value and the Kelly Criterion
 description: "Weigh outcomes by probability, then size the bet so a bad run can't wipe you out (Kelly, usually fractional)."
-source: https://github.com/deciqAI/knowledge-skills/tree/main/expected-value-and-kelly (MIT, deciqAI)
 ---
 
 

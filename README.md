@@ -162,14 +162,4 @@ Works with any agent that reads `SKILL.md` folders.
 claude plugin marketplace add akshit9162/skillscout && claude plugin install skillscout@skillscout
 ```
 
-## Credits
-
-Built on the shoulders of three MIT-licensed projects, with thanks:
-[cyperx84/claude-skills-mental-models](https://github.com/cyperx84/claude-skills-mental-models)
-(21 sourced model files), [deciqAI/knowledge-skills](https://github.com/deciqAI/knowledge-skills)
-(premortem, sunk cost, circle of competence, expected value & Kelly, the Mom Test) and
-[decision-mental-models](https://github.com/ndesv21/openclaw-master-skills/tree/main/skills/decision-mental-models) by arbazex (the
-*what it asks / applied / insight* format and several quick models). Details and licence texts
-in [CREDITS.md](skills/think/CREDITS.md).
-
 If `think` changed a decision for you, a ⭐ helps other people find it.

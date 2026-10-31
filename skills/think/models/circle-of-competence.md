@@ -2,7 +2,6 @@
 type: mental-model
 title: Circle of Competence
 description: "Know the boundary of what you genuinely understand, and act differently inside vs. outside it."
-source: https://github.com/deciqAI/knowledge-skills/tree/main/circle-of-competence (MIT, deciqAI)
 ---
 
 

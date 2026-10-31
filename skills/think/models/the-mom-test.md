@@ -2,7 +2,6 @@
 type: mental-model
 title: The Mom Test
 description: "Ask customers about their past behaviour and spend, never about your idea — compliments are not data."
-source: https://github.com/deciqAI/knowledge-skills/tree/main/the-mom-test (MIT, deciqAI)
 ---
 
 

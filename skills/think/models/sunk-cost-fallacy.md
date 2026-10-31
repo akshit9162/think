@@ -2,7 +2,6 @@
 type: mental-model
 title: Sunk-Cost Fallacy
 description: "Past spend is gone either way; decide only on future costs and benefits from here."
-source: https://github.com/deciqAI/knowledge-skills/tree/main/sunk-cost-fallacy (MIT, deciqAI)
 ---
 
 

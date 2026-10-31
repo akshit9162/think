@@ -2,7 +2,6 @@
 type: mental-model
 title: Premortem
 description: "Imagine the plan has already failed, then work backward to the causes — surfaces risks 'what could go wrong?' misses."
-source: https://github.com/deciqAI/knowledge-skills/tree/main/premortem (MIT, deciqAI)
 ---
 
 
